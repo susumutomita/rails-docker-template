@@ -54,6 +54,11 @@ group :development, :test do
 end
 
 group :development do
+  gem 'pre-commit'
+  gem 'rubocop', require: false
+  gem 'rubocop-rails', require: false
+  gem 'rubocop-rspec', require: false
+  gem 'brakeman'
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
